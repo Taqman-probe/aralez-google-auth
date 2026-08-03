@@ -1,0 +1,26 @@
+[package]
+name = "aralez-plugin-google-auth"
+version.workspace = true
+edition = "2021"
+
+[dependencies]
+aralez-spec = { workspace = true }
+aralez-util = { workspace = true }
+
+async-trait = { workspace = true }
+axum = { workspace = true }
+base64 = { workspace = true }
+bytes = { workspace = true }
+inventory = { workspace = true }
+jsonwebtoken = { workspace = true }
+log = { workspace = true }
+noyalib = { workspace = true }
+pingora = { workspace = true }
+pingora-core = { workspace = true }
+pingora-http = { workspace = true }
+pingora-proxy = { workspace = true }
+rand = { workspace = true }
+sha2 = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+urlencoding = { workspace = true }
