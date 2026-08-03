@@ -36,6 +36,7 @@ You can configure this plugin using your application's configuration file (compa
 | `└─cookie_name` | String | Optional | The name of the Cookie used to store the session JWT. Defaults to `"aralez_session"` if omitted. |
 
 ## Configuration Example (YAML)
+### upstreams.yaml
 ```yaml
   authorization:
     type: "google"
